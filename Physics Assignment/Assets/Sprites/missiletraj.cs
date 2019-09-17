@@ -39,7 +39,7 @@ public class missiletraj : MonoBehaviour
         {
             //Borrowed from class
             Fire.GetComponent<Renderer>().enabled = true;
-            rb.gravityScale = 1;
+            rb.gravityScale = .5f;
             Debug.Log("Pressed Primary button" + Input.mousePosition);
             Vector3 worldPoint = Camera.main.ScreenToViewportPoint(Input.mousePosition);
             Debug.Log("clicked!" + worldPoint.x + " " + worldPoint.y);
