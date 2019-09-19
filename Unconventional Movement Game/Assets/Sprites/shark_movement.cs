@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class shark_movement : MonoBehaviour
 {
-    //float horz;
-    //float vert;
     Rigidbody2D rb;
     SpriteRenderer fl;
     public float forceamount;
