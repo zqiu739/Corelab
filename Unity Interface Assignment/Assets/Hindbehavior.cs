@@ -22,7 +22,7 @@ public class Hindbehavior : MonoBehaviour
         transform.Translate(new Vector2(-.07f, 0));
         transform.position = new Vector3(transform.position.x, 4);
 
-        if (transform.position.x <= -8)
+        if (transform.position.x <= -11)
         {
             Destroy(this.gameObject);
         }

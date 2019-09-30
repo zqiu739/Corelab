@@ -39,14 +39,14 @@ public class submove : MonoBehaviour
             transform.position = new Vector2(transform.position.x, -4.29f);
         }
 
-        if (transform.position.x <= -5.45)
+        if (transform.position.x <= -8.45)
         {
-            transform.position = new Vector2(-5.44f, transform.position.y);
+            transform.position = new Vector2(-8.44f, transform.position.y);
         }
 
-        if (transform.position.x >= 5.45)
+        if (transform.position.x >= 8.45)
         {
-            transform.position = new Vector2(5.44f, transform.position.y);
+            transform.position = new Vector2(8.44f, transform.position.y);
         }
     }
 

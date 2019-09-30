@@ -20,7 +20,7 @@ public class SubBehaviors : MonoBehaviour
     {
         transform.Translate(new Vector2(-.05f, 0));
 
-        if (transform.position.x <= -8)
+        if (transform.position.x <= -11)
         {
             Destroy(this.gameObject);
         }

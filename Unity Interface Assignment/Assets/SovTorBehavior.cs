@@ -19,7 +19,7 @@ public class SovTorBehavior : MonoBehaviour
         timer += Time.deltaTime;
         transform.Translate(new Vector2(-.2f * timer, 0));
 
-        if (transform.position.x <= -7)
+        if (transform.position.x <= -9)
         {
             Destroy(this.gameObject);
         }
