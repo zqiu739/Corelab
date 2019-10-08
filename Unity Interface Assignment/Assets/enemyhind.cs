@@ -23,7 +23,7 @@ public class enemyhind : MonoBehaviour
         if (Time.time > nextEnemy)
         {
             nextEnemy = Time.time + spawnRate;
-            Instantiate(hind, new Vector3(8,4,6),Quaternion.Euler(0,0,6));
+            Instantiate(hind, new Vector3(10,4,6),Quaternion.Euler(0,0,6));
         }
     }
 }

@@ -26,7 +26,7 @@ public class enemysubspawner : MonoBehaviour
         {
             nextEnemy = Time.time + spawnRate;
             spawnPosy = Random.Range(2.3f, -4.3f);
-            spawnPos = new Vector2(8, spawnPosy);
+            spawnPos = new Vector2(10, spawnPosy);
             Instantiate(sovsub, spawnPos, Quaternion.identity);
         }
     }
