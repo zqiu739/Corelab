@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class bulletphysics : MonoBehaviour
 {
-    public GameObject bullet_p;
+    //public GameObject bullet_p;
     Rigidbody2D rb;
     float forceamount;
 

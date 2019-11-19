@@ -19,4 +19,9 @@ public class start : MonoBehaviour
             SceneManager.LoadScene(1);
         }
     }
+
+    public void restart()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

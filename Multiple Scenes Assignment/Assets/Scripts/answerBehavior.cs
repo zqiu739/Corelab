@@ -14,7 +14,7 @@ public class answerBehavior : MonoBehaviour
     public Button no2;
     public Button no3;
     public Button no4;
-    public Button Next;
+    //public Button Next;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class answerBehavior : MonoBehaviour
         no2.interactable = true;
         no3.interactable = true;
         no4.interactable = true;
-        Next.interactable = false;
+        //Next.interactable = false;
     }
 
     public void ScoreKeeper()
@@ -47,7 +47,7 @@ public class answerBehavior : MonoBehaviour
         no2.interactable = false;
         no3.interactable = false;
         no4.interactable = false;
-        Next.interactable = true;
+        //Next.interactable = true;
     }
 
     public void Incorrect()
@@ -59,12 +59,7 @@ public class answerBehavior : MonoBehaviour
         no2.interactable = false;
         no3.interactable = false;
         no4.interactable = false;
-        Next.interactable = true;
-    }
-
-    public void restart()
-    {
-        SceneManager.LoadScene(0);
+        //Next.interactable = true;
     }
 
     // Update is called once per frame
